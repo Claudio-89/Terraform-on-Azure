@@ -38,3 +38,25 @@ Validates the syntax of the configuration files.
 
 ###### terraform fmt 
 Formats the configuration files in a consistent style.
+
+# General best practices for using Terraform
+
+- Use version control: Store your Terraform configuration in a version control system like Git. This allows you to track changes and roll back if necessary.
+
+- Use workspaces: Use Terraform workspaces to create separate environments for development, staging, and production.
+
+- Use a remote backend: Use a remote backend to store the Terraform state file. This allows multiple team members to collaborate and ensures that the state file is not lost if the local machine is destroyed.
+
+- Use modules: Use modules to encapsulate infrastructure components and make it easier to reuse and manage your code.
+
+- Use variables: Use variables to make your configuration more flexible and easier to maintain.
+
+- Use resource dependencies: Use dependencies to specify the order in which resources should be created.
+
+- Use terraform fmt: Use the terraform fmt command to automatically format your configuration files in a consistent style.
+
+- Use terraform validate: Use the terraform validate command to verify that the syntax of your configuration files is correct.
+
+- Use terraform plan: Use the terraform plan command to preview the changes that will be made to the infrastructure before applying them.
+
+- Use automation: Use automation tools, such as Terraform Cloud or Azure DevOps, to automate the deployment process and ensure that changes are tested before they are applied to the live environment.
