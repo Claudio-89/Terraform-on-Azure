@@ -10,7 +10,7 @@ This project was created based on a Terraform course completed on "A Cloud Guru.
 - Load Balancer
 - VMs, VMss
 - CosmosDB
-- AKS
+- Azure Kubernetes Service
 
 
 # Terraform Commands used during the course
