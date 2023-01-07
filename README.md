@@ -53,10 +53,4 @@ Formats the configuration files in a consistent style.
 
 - Use resource dependencies: Use dependencies to specify the order in which resources should be created.
 
-- Use terraform fmt: Use the terraform fmt command to automatically format your configuration files in a consistent style.
-
-- Use terraform validate: Use the terraform validate command to verify that the syntax of your configuration files is correct.
-
-- Use terraform plan: Use the terraform plan command to preview the changes that will be made to the infrastructure before applying them.
-
 - Use automation: Use automation tools, such as Terraform Cloud or Azure DevOps, to automate the deployment process and ensure that changes are tested before they are applied to the live environment.
