@@ -2,6 +2,17 @@
 
 This project was created based on a Terraform course completed on "A Cloud Guru." Please note that some of the commands used in this project may have been deprecated since the time of its creation due to the continuous improvement of Terraform. The resources for this project have been deployed in the "A Cloud Guru" sandbox environment which has some limitations.
 
+# Resources deployed
+
+- Azure Storage to be used for terraform remote state
+- Virtual Network
+- Subnet
+- Load Balancer
+- VMs, VMss
+- CosmosDB
+- AKS
+
+
 # Terraform Commands used during the course
 
 ###### terraform init 
