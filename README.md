@@ -4,7 +4,6 @@ The resources for this project have been deployed in the "A Cloud Guru" sandbox 
 
 # Resources deployed
 
-- Azure Storage to be used for terraform remote state
 - Virtual Network
 - Subnet
 - Load Balancer
