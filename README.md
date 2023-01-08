@@ -12,7 +12,7 @@ This project's resources have been deployed in the 'A Cloud Guru' sandbox enviro
 - Azure Kubernetes Service
 
 
-# Used Terraform Commands
+# Terraform Used Commands
 
 ###### terraform init 
 Initializes a Terraform working directory by installing the necessary plugins and verifying that the configuration is valid.
