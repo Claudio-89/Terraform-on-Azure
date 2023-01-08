@@ -1,6 +1,6 @@
 # Terraform on Azure
 
-The resources for this project have been deployed in the "A Cloud Guru" sandbox environment which has some limitations.
+The resources for this project have been deployed in the "A Cloud Guru" sandbox environment, which has some limitations that does not allow to always follow best practices in a real-world scenario.
 
 # Resources deployed
 
@@ -49,6 +49,8 @@ Formats the configuration files in a consistent style.
 - Use modules: Use modules to encapsulate infrastructure components and make it easier to reuse and manage your code.
 
 - Use variables: Use variables to make your configuration more flexible and easier to maintain.
+
+- Use encrypted storage: Encrypted storage should be used to securely store sensitive data, such as access keys and passwords. These secrets can be referenced in your Terraform configuration using tools like Azure Key Vault. This helps to keep secrets out of your configuration and makes it easier to rotate them. Azure Managed Identities can also be utilized to authenticate to Azure services without storing access keys or passwords in your configuration
 
 - Use resource dependencies: Use dependencies to specify the order in which resources should be created.
 
