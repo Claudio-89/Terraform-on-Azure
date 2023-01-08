@@ -1,6 +1,6 @@
 # Terraform on Azure
 
-This project's resources have been deployed in the 'A Cloud Guru' sandbox environment, which has some limitations that prevent the use of best practices that would be applicable in a real-world scenario.
+This project's resources have been deployed in the 'A Cloud Guru' sandbox environment, which has some limitations that may prevent the implementation of best practices that would be applicable in a real-world scenario.
 
 # Resources deployed
 
